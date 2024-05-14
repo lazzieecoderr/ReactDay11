@@ -16,7 +16,7 @@ const Create = () => {
     const { name, value } = e.target; //e.target.name e.target.value
     setCreateData((preData) => ({
       ...preData,
-      [name]: value, //product_name:iphone
+      [name]: value, //product_name:product name 1 => product_name:iphone
     }));
   };
   const handleSubmit = async (e) => {
